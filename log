@@ -62,3 +62,22 @@ Fri Mar 11 20:49:34 HSP 2022:
  tests:  3|4
 total_score: 30/70
 4e52a49
+Fri Mar 11 20:59:24 HSP 2022: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crearVector':
+exercises.c:86:39: error: passing argument 1 of 'realloc' makes pointer from integer without a cast [-Werror=int-conversion]
+    Vector *hola = (Vector *) realloc (n,sizeof(Vector));
+                                       ^
+In file included from test.c:2:0:
+c:\mingw\include\stdlib.h:486:40: note: expected 'void *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  void *realloc (void *, size_t);
+                                        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:87:13: error: invalid operands to binary == (have 'Vector {aka struct <anonymous>}' and 'void *')
+    if(*hola == NULL) exit(1);
+       ~~~~~ ^~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+a38060c
