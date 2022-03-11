@@ -38,8 +38,10 @@ Utilice la función sumaN.
 */
 
 void sumaNultimos(int a[], int n, int m, int * suma) {
-   int k = n-m;
-   *suma = sumaN(a + k , m);
+
+   int ulti = n-m;
+
+   *suma = sumaN(a + ulti , m);
 }
 
 /*
@@ -58,7 +60,12 @@ typedef struct {
 
 Persona* crearPersona(char nombre[], char rut[], int edad) {
    
-   Persona *newperson;
+   Persona *newperson = (Persona *) calloc (1,sizeof(Persona));
+
+   strcpy(newperson->nombre,nombre);
+   strcpy(newperson->rut,rut);
+   edad = newperson->rut ;
+
    return NULL;
 }
 
