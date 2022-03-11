@@ -81,3 +81,21 @@ exercises.c:87:13: error: invalid operands to binary == (have 'Vector {aka struc
 cc1.exe: all warnings being treated as errors
 Compilation failed
 a38060c
+Fri Mar 11 20:59:53 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crearVector':
+exercises.c:86:30: error: too many arguments to function 'malloc'
+    Vector *hola = (Vector *) malloc (n,sizeof(Vector));
+                              ^~~~~~
+In file included from test.c:2:0:
+c:\mingw\include\stdlib.h:485:40: note: declared here
+ _CRTIMP __cdecl __MINGW_NOTHROW  void *malloc (size_t) __MINGW_ATTRIB_MALLOC;
+                                        ^~~~~~
+In file included from test.c:5:0:
+exercises.c:87:13: error: invalid operands to binary == (have 'Vector {aka struct <anonymous>}' and 'void *')
+    if(*hola == NULL) exit(1);
+       ~~~~~ ^~
+Compilation failed
+f03c45c
