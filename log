@@ -549,3 +549,14 @@ exercises.c:111:10: error: invalid type argument of '->' (have 'Vector {aka stru
           ^~
 Compilation failed
 f2cb708
+Sat Mar 12 16:38:30 HSP 2022: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'asignarValor':
+exercises.c:111:15: error: assignment makes pointer from integer without a cast [-Werror=int-conversion]
+    v[i].datos = valor;
+               ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+93ae972
