@@ -424,3 +424,14 @@ Sat Mar 12 16:06:57 HSP 2022:
  tests:  4|3
 total_score: 40/70
 205f264
+Sat Mar 12 16:10:20 HSP 2022: 
+ exercises.c | 5 +----
+ 1 file changed, 1 insertion(+), 4 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'asignarValor':
+exercises.c:111:5: error: 'v' is a pointer; did you mean to use '->'?
+    v.datos[i] = valor;
+     ^
+     ->
+Compilation failed
+b98c2f5
