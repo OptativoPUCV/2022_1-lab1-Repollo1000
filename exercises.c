@@ -90,12 +90,13 @@ typedef struct
 
 Vector *crearVector(int n)
 {
-   Vector *a = NULL;
-   a->capacidad = n;
-   a->datos = (int *)calloc(n, sizeof(int));
-   if (a->datos == NULL)
-      exit(1);
-   return a;
+   Vector v;
+   v->capacidad = n;
+   v->datos = (int*) calloc(n, sizeof(int));
+   if(v->datos == NULL) exit(1);
+
+   return v;
+
 }
 
 /*
