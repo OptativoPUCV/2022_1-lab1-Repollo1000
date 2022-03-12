@@ -390,3 +390,14 @@ Sat Mar 12 15:07:26 HSP 2022:
  1 file changed, 1 insertion(+)
  tests:  0|0
 e4b4e06
+Sat Mar 12 15:08:24 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crearVector':
+exercises.c:96:5: error: 'v' is a pointer; did you mean to use '->'?
+    v.capacidad = n;
+     ^
+     ->
+Compilation failed
+0ec5c8b
