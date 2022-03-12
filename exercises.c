@@ -108,8 +108,8 @@ la cual asigna el valor a la posición i del vector v.
 */
 void asignarValor(Vector *v, int i, int valor)
 {
-   v = (Vector *) malloc (1 *sizeof(Vector));
-   
+   v = (Vector *) realloc (v , 1 * sizeof(Vector));
+
    v->datos[i] = valor ;
 
 } 
