@@ -379,3 +379,9 @@ exercises.c:97:13: error: assignment from incompatible pointer type [-Werror=inc
 cc1.exe: all warnings being treated as errors
 Compilation failed
 0366511
+Sat Mar 12 15:06:36 HSP 2022: 
+ exercises.c | 6 +-----
+ 1 file changed, 1 insertion(+), 5 deletions(-)
+ tests:  3|4
+total_score: 30/70
+523df6c

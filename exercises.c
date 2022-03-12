@@ -91,12 +91,8 @@ typedef struct
 Vector *crearVector(int n)
 {
    Vector* v = NULL;
-   v = (Vector*) calloc(3, sizeof(Vector));
+   v = (Vector*) calloc(n, sizeof(Vector));
    if(v == NULL) exit(1);
-   v->datos = NULL;
-   v->datos = (Vector*) calloc(n, sizeof(Vector));
-   v->capacidad=n;
-   if(v->datos == NULL) exit(1);
 
    return v;
 
