@@ -114,3 +114,9 @@ c:\mingw\include\stdlib.h:486:40: note: expected 'void *' but argument is of typ
 cc1.exe: all warnings being treated as errors
 Compilation failed
 f2120de
+Fri Mar 11 21:02:08 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  3|4
+total_score: 30/70
+087b4d3
