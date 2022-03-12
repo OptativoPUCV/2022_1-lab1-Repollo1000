@@ -83,8 +83,8 @@ typedef struct {
 } Vector;
 
 Vector * crearVector(int n) {
-   Vector *hola = (Vector *) malloc (n,sizeof(Vector));
-   if(*hola == NULL) exit(1);
+   Vector *hola = (Vector *) realloc (n,sizeof(Vector));
+   if(hola == NULL) exit(1);
    return hola;
 }
 
