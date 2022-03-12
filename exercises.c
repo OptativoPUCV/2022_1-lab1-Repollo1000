@@ -110,7 +110,7 @@ void asignarValor(Vector *v, int i, int valor)
 {
    //v = (Vector *) realloc (v , 1 * sizeof(Vector));
 
-   v.datos[i] = valor ;
+   v->datos[i] = valor ;
 
 } 
 
