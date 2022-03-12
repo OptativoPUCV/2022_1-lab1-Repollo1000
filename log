@@ -126,3 +126,14 @@ Fri Mar 11 21:06:37 HSP 2022:
  tests:  3|4
 total_score: 30/70
 7a2848c
+Fri Mar 11 21:10:18 HSP 2022: 
+ exercises.c | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crearVector':
+exercises.c:87:27: error: return makes pointer from integer without a cast [-Werror=int-conversion]
+    if(Vec == NULL) return EXIT_FAILURE;
+                           ^~~~~~~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+f922950
