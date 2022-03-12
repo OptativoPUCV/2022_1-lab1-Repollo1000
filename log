@@ -507,3 +507,13 @@ exercises.c:111:8: error: invalid type argument of '->' (have 'Vector {aka struc
         ^~
 Compilation failed
 2dc7fa9
+Sat Mar 12 16:34:35 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'asignarValor':
+exercises.c:111:8: error: invalid type argument of '->' (have 'Vector {aka struct <anonymous>}')
+    v[i]->datos = valor;
+        ^~
+Compilation failed
+64884bb
