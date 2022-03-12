@@ -306,3 +306,22 @@ exercises.c:98:11: error: function returns address of local variable [-Werror=re
 cc1.exe: all warnings being treated as errors
 Compilation failed
 a9b2585
+Sat Mar 12 14:49:11 HSP 2022: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crearVector':
+exercises.c:94:5: error: '(Vector *)&v' is a pointer; did you mean to use '->'?
+    v.datos = (Vector*) calloc(1, sizeof(Vector));
+     ^
+     ->
+exercises.c:95:5: error: '(Vector *)&v' is a pointer; did you mean to use '->'?
+    v.capacidad=n;
+     ^
+     ->
+exercises.c:98:11: error: function returns address of local variable [-Werror=return-local-addr]
+    return v;
+           ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+10e5d65
