@@ -93,6 +93,7 @@ Vector *crearVector(int n)
    Vector* v = NULL;
    v = (Vector*) calloc(n, sizeof(Vector));
    if(v == NULL) exit(1);
+   v->datos = (int*) calloc(n, sizeof(int));
    v->capacidad = n;
 
    return v;
