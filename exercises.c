@@ -112,7 +112,7 @@ void asignarValor(Vector *v, int i, int valor)
    for (size_t k = 0; k < v->capacidad; k++)
    {
       if(k == i)
-         v[i-1].datos[k] = valor;
+         v[i].datos[k] = valor;
    }
 } 
 
