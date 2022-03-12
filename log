@@ -237,3 +237,8 @@ exercises.c:125:8: error: incompatible types when assigning to type 'Vector {aka
         ^
 Compilation failed
 46cccaa
+Sat Mar 12 14:27:26 HSP 2022: 
+ exercises.c | 48 +++++++++++++++++++++++++++++-------------------
+ 1 file changed, 29 insertions(+), 19 deletions(-)
+ tests:  0|0
+62ca0ea
