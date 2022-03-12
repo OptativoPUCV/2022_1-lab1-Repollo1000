@@ -86,6 +86,7 @@ Vector * crearVector(int n) {
    Vector a;
    a.capacidad = n;
    a.datos = (int *) calloc (a.capacidad , sizeof(int));
+   return a.datos;
 }
 
 /*
