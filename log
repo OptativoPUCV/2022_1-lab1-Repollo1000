@@ -705,3 +705,9 @@ exercises.c:135:10: error: invalid operands to binary + (have 'Vector * {aka str
           ^
 Compilation failed
 3fcdc49
+Sat Mar 12 17:15:46 HSP 2022: 
+ exercises.c | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+ tests:  7|1
+total_score: 60/70
+f7aa07a
