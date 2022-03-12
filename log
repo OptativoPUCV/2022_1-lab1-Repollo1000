@@ -447,3 +447,14 @@ Sat Mar 12 16:12:20 HSP 2022:
  tests:  4|3
 total_score: 40/70
 45e3fec
+Sat Mar 12 16:13:07 HSP 2022: 
+ exercises.c | 5 -----
+ 1 file changed, 5 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'asignarValor':
+exercises.c:111:13: error: 'j' undeclared (first use in this function)
+    v->datos[j]=valor;
+             ^
+exercises.c:111:13: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+daadc0d
