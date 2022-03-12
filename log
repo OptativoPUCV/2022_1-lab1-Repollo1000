@@ -634,3 +634,8 @@ exercises.c:111:5: error: 'v' is a pointer; did you mean to use '->'?
      ->
 Compilation failed
 441ab95
+Sat Mar 12 16:54:50 HSP 2022: 
+ exercises.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+ tests:  0|0
+6c258ec
