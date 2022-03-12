@@ -695,3 +695,13 @@ Sat Mar 12 17:04:40 HSP 2022:
  tests:  6|2
 total_score: 50/70
 7f57c9d
+Sat Mar 12 17:11:23 HSP 2022: 
+ exercises.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:0:
+exercises.c: In function 'sumaV':
+exercises.c:135:10: error: invalid operands to binary + (have 'Vector * {aka struct <anonymous> *}' and 'Vector * {aka struct <anonymous> *}')
+    c = a + b;
+          ^
+Compilation failed
+3fcdc49

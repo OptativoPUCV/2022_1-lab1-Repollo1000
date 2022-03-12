@@ -111,7 +111,6 @@ void asignarValor(Vector *v, int i, int valor)
    //v = (Vector *) realloc (v , 1 * sizeof(Vector));
 
    v->datos[i] = valor ;
-
 } 
 
 /*
@@ -133,6 +132,7 @@ actualiza el vector `c` con el resultado de la suma.
 */
 void sumaV(Vector *a, Vector *b, Vector *c)
 {
+   c = a + b;
 }
 
 /*
