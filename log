@@ -339,3 +339,17 @@ exercises.c:98:11: error: function returns address of local variable [-Werror=re
 cc1.exe: all warnings being treated as errors
 Compilation failed
 9d52f4b
+Sat Mar 12 14:50:09 HSP 2022: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crearVector':
+exercises.c:95:13: error: assignment from incompatible pointer type [-Werror=incompatible-pointer-types]
+    v->datos = (Vector*) calloc(1, sizeof(Vector));
+             ^
+exercises.c:99:11: error: function returns address of local variable [-Werror=return-local-addr]
+    return v;
+           ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+1e7aa71
