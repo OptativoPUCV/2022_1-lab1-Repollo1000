@@ -83,7 +83,8 @@ typedef struct {
 } Vector;
 
 Vector * crearVector(int n) {
-   Vector *vec = (Vector *) calloc (n , sizeof(Vector));
+   Vector *vec ;
+   vec = (Vector *) calloc (n , sizeof(Vector));
    return vec;
 }
 
